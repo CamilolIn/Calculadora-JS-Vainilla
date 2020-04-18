@@ -1,0 +1,101 @@
+/*Estilos generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilos body*/
+body{
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+/* Estilos Titulo*/
+h1{
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+    color: white;
+    font-size: 50px;
+}
+/* Estilos botonos */
+
+table button{
+ 
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    transition: 0.1s
+    ;
+
+    /*box-shadow: inset 0 0 10px 0 maroon;*/
+    
+}
+
+table .op{
+    background-color: #cccccc;
+}
+
+table button:active{
+
+    box-shadow: 0  0 10px white inset;
+    background-color: black;
+    color: white;
+
+}
+
+table button:hover{
+
+    background-color: rgba(0, 0, 0, 0.70);
+    color: white;
+
+}
+
+
+table tr td{
+    
+    line-height: 30px;
+    width: 100px;
+
+}
+
+/* Estilos cotenedor general*/
+.conte-gen{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+
+}
+
+/* Estilos Tabla*/
+.t-cal{
+    background-color: #cccccc;
+    margin: 0 auto;
+    
+}
+
+/* Estilos Ventana de resultado*/
+
+.result{
+    font-size: 60px;
+    height: 40px;
+    padding: 40px 0px;
+    max-width: 400px;
+    overflow-x: scroll;
+    background-color: rgba(0, 0, 0, 0.70);
+    margin: 0 auto;
+    color: white;
+    
+    
+   
+}
+
+
+
+
+
+
